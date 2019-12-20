@@ -11,7 +11,7 @@ The purpose of this website is to implement the basic concepts of django such as
 
 
 ## Screenshots
-![img](django-locallibrary/img/screenshot(1).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(1).png)
 ![img](django-locallibrary/img/screenshot(2).png)
 ![img](django-locallibrary/img/screenshot(3).png)
 ![img](django-locallibrary/img/screenshot(4).png)
