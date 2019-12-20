@@ -12,11 +12,11 @@ The purpose of this website is to implement the basic concepts of django such as
 
 ## Screenshots
 ![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(1).png)
-![img](./img/screenshot(2).png)
-![img](django-locallibrary/img/screenshot(3).png)
-![img](django-locallibrary/img/screenshot(4).png)
-![img](django-locallibrary/img/screenshot(5).png)
-![img](django-locallibrary/img/screenshot(6).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(2).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(3).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(4).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(5).png)
+![img](https://github.com/piyushsk90/django-locallibrary/blob/master/img/Screenshot%20(6).png)
 
 
 ## Technologies
