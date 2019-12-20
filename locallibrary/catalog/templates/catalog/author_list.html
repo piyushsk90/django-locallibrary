@@ -1,0 +1,33 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Author List</h1>
+  {% if author_list %}
+  <ul>
+    {% for author in author_list %}
+        {% if author.cover %}
+          <img src="{{ author.cover.url}}" style="width:121px;height:200px;" alt=""> 
+        {% endif %}
+        {% if author.date_of_death == None %}
+        <li>  
+            <a href="{{ author.get_absolute_url }}">{{ author.first_name }} {{ author.last_name }} ({{ author.date_of_birth }} - )</a> 
+            <a  href="{% url "author_update"  author.id  %}">Update Author</a>
+            <a href="{% url "author_delete" author.id  %}">Delete Author</a>
+        </li>
+        {% else %}
+        <li>  
+            <a href="{{ author.get_absolute_url }}">{{ author.first_name }} {{ author.last_name }} ({{ author.date_of_birth }} - {{author.date_of_death}})</a>
+            <a  href="{% url "author_update"  author.id  %}">Update Author</a>
+            <a href="{% url "author_delete" author.id  %}">Delete Author</a> 
+        </li>
+
+        {% endif %}
+        <tr>
+      
+        </tr>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no authors.</p>
+  {% endif %}       
+{% endblock %}
