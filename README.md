@@ -11,12 +11,12 @@ The purpose of this website is to implement the basic concepts of django such as
 
 
 ## Screenshots
-![img](./img/screenshot(1).png)
-![img](./img/screenshot(2).png)
-![img](./img/screenshot(3).png)
-![img](./img/screenshot(4).png)
-![img](./img/screenshot(5).png)
-![img](./img/screenshot(6).png)
+![img](/img/screenshot(1).png)
+![img](/img/screenshot(2).png)
+![img](/img/screenshot(3).png)
+![img](/img/screenshot(4).png)
+![img](/img/screenshot(5).png)
+![img](/img/screenshot(6).png)
 
 
 ## Technologies
